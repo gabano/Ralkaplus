@@ -8,7 +8,7 @@ João Gabriel Nogueira (@gabano)
 **Year**  
 2017  
   
-*The calculation method is based on the method available on "O Metabolismo dos Ecossistemas Aquáticos" by Carmouze, 1994.*
+*The calculation method is based on the method available in "O Metabolismo dos Ecossistemas Aquáticos" by Carmouze, 1994.*
   
   
-*This scripted is distributed as it is, but feel free to contact me if you have any questions.*
+*This script is distributed as it is, but feel free to contact me if you have any questions.*

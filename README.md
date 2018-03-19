@@ -6,7 +6,7 @@ R based Total alkalinity calculator for freshwater ecosystems, using 0,01 N acid
 **Author**  
 João Gabriel Nogueira (@gabano)  
 **Year**  
-2017  
+2016  
   
 *The calculation method is based on the method available in "O Metabolismo dos Ecossistemas Aquáticos" by Carmouze, 1994.*
   

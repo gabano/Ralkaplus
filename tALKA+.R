@@ -8,7 +8,8 @@
 # To use this file, create a .csv (separated by ;) file containing the following header and information
 # id samplev ph1 v1 ph2 v2 ph3 v3 correction_factor
 # sample1 100 3.79 0.83 3.5 1.33 3.34 1.83 1.07793
-# Where samplev is the sample volume in mL and v1, v2 and v3 are the instilled volumes of 0.01 N acidic solution. The corretion_fator is the correction factor for the 0,01 N acidic solution used in the titration. 
+# Where samplev is the sample volume in mL and v1, v2 and v3 are the instilled volumes of 0.01 N acidic solution.
+# The corretion_fator is the correction factor for the 0,01 N acidic solution used in the titration. 
 
 # Choose the .csv file
 
@@ -39,8 +40,7 @@ vetorph <- c(ph1[i], ph2[i], ph3[i])
 vetorV <- c(v1[i], v2[i], v3[i])
 
 regressao <- lm(vetorV ~ vetorF)
-summary(regressao)
-#plot(vetorV~vetorF)
+
 veq <- round(as.numeric(regressao$coefficients[1]),5) 
 veq 
 
